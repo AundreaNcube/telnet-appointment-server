@@ -1,4 +1,4 @@
-*.class
+git branch -M main*.class
 .vscode/
 .idea/
 *.iml

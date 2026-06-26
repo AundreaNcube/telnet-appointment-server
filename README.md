@@ -59,7 +59,7 @@ The assignment called for a single-user Telnet server with basic CRUD and ANSI s
 | File | Responsibility |
 |---|---|
 | `Server.java` | Opens the `ServerSocket`, accepts connections, spawns a thread per client |
-| `ClientHandler.java` | Per-client session logic — menu, input parsing, character echoing |
+| `ClientHandler.java` | Per-client session logic i.e. menu, input parsing, character echoing |
 | `Appointmentdatabase.java` | Thread-safe in-memory store (`synchronized` methods) |
 | `Appointment.java` | Data model for a single appointment |
 | `FileManager.java` | Save/load persistence, plus CSV import/export |

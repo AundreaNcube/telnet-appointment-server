@@ -2,3 +2,4 @@ git branch -M main*.class
 .vscode/
 .idea/
 *.iml
+*.class
